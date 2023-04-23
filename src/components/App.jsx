@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Filter from './Filter/Filter';
 import ContactList from './ContactList/ContactList';
 import { ContactForm } from './ContactForm/ContactForm';
-import { useLocalStorage } from '../LocalStorage/LocalStorage';
+import { useLocalStorage } from '../hooks/useLocalStorage';
 import Container from './Container/Container';
 
 export const App = () => {
